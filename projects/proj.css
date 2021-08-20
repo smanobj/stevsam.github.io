@@ -1,9 +1,15 @@
 body {
+  width: 100%;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   overflow:scroll;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerbody {
+    max-width: 1200px;
+    margin: auto;
 }
 
 
@@ -64,6 +70,7 @@ nav {
 }
 
 .hire1 {
+    max-width: 1200px;
     text-decoration: none;
     font-size: 1em;
     color: #ff6666;
@@ -93,7 +100,8 @@ nav {
 }
 
 .middleside {
-    max-width: 100%;
+    max-width: 1200px;
+    margin: auto;
     height: 400px;
     margin-top: 100px;
     background-color:#0d1a00;
@@ -131,7 +139,8 @@ nav {
 }
 
 .compside {
-    width:100%;
+    max-width:1200px;
+    margin: auto;
     height: 500px;
     margin-top: 100px;
     background-color: #f2f2f2;
@@ -194,7 +203,8 @@ textarea {
 }
 
 footer {
-    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     height: 500px;
     background-color: #0d1a00;
     color: gainsboro;

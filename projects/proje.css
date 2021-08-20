@@ -1,0 +1,239 @@
+body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow:scroll;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerbody {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.hero {
+    background-color: #ff6666;
+    width: 100%;
+    height: 500px;
+    border-radius: 0px 0 0 50px;
+}
+
+header {
+    color: white;
+    margin: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+nav {
+    display: flex;
+    float: right;
+    margin: -50px 25px 0px 0;
+}
+
+
+.navbar {
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.subhero {
+    text-align: center;
+    color: white;
+    line-height: 1px;
+}
+
+.subhero1 {
+    margin-top: 50px;
+    padding:10px;
+}
+
+.hire {
+    margin: 30px 45%;
+    width:80px;
+    text-decoration: none;
+    font-size: 1em;
+    background-color:white;
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.hire1 {
+    max-width: 1200px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #ff6666;
+}
+
+
+.future {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+}
+
+.aside {
+    padding: 0;
+    width: 50%;
+    margin-left: 20px;
+    height: 500px;
+    margin-top: 100px; 
+    overflow:scroll; 
+}
+
+.side {
+    float: right;
+    max-width: 45%;
+    height:45% ;
+    margin-top: -500px;
+}
+
+.middleside {
+    max-width: 1200px;
+    margin: auto;
+    height: 400px;
+    margin-top: 100px;
+    background-color:#0d1a00;
+    border-radius: 0px 50px 0px 50px;
+    color: #f2f2f2;
+    display:flex;
+    justify-content: space-between;
+}
+
+.image1 {
+    position: relative;
+    max-width: 200px;
+    max-height: 400px;
+    margin:20px;
+    margin-top: -50px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.image2 {
+    position: relative;
+    max-width: 200px;
+    height: 400px;
+    margin-left: 270px;
+    margin-top: -400px;
+    border-radius: 25px;
+}
+
+
+ .middleh {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+.compside {
+    max-width:1200px;
+    margin: auto;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    overflow:scroll;
+}
+
+.comaside {
+    margin-left: 55%;
+    margin-top: -300px;
+}
+
+.comimg {
+    max-width: 65%;
+    height: 55%;
+    padding-top: 40px;
+    margin-left: -30px;
+}
+
+#contact {
+    margin-left: 33%;
+    margin-top: 100px;
+}
+
+
+.conme {
+    margin-top: -60px;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 2.3em;
+    color: #262626;
+}
+
+input {
+    width: 45%;
+    line-height: 2em;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid darkolivegreen;
+    margin: 20px;
+    background-color: gainsboro;
+}
+
+label {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+textarea {
+    margin: 20px;
+    font-size: 16px;
+    width: 45%;
+}
+
+.submit {
+    width: 35%;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+footer {
+    max-width: 1200px;
+    margin: auto;
+    height: 500px;
+    background-color: #0d1a00;
+    color: gainsboro;
+    border-radius: 0 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+a {
+    text-decoration:none;
+    color: gainsboro;
+    line-height: 2.5em;
+}
+
+
+a:hover {
+    color: lightgreen;
+}
+
+.social {
+    margin-right: 20px;
+}
+
+
+.steve {
+    margin-left: 50px;
+    font-weight: 900;
+    font: size 2.5em;
+}
+
+
